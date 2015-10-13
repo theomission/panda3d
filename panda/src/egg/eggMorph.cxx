@@ -1,5 +1,5 @@
-// Filename: bitMask.cxx
-// Created by:  drose (08Jun00)
+// Filename: eggMorph.cxx
+// Created by:  rdb (08Oct15)
 //
 ////////////////////////////////////////////////////////////////////
 //
@@ -12,13 +12,7 @@
 //
 ////////////////////////////////////////////////////////////////////
 
-#include "bitMask.h"
+#include "eggMorph.h"
 
-// Tell GCC that we'll take care of the instantiation explicitly here.
-#ifdef __GNUC__
-#pragma implementation
-#endif
-
-template class BitMask<PN_uint16, 16>;
-template class BitMask<PN_uint32, 32>;
-template class BitMask<PN_uint64, 64>;
+template class EggMorph<LVector3d>;
+template class EggMorph<LVector4>;

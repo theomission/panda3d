@@ -22,6 +22,7 @@
 #include "eggMesherFanMaker.cxx"
 #include "eggMesherStrip.cxx"
 #include "eggMiscFuncs.cxx"
+#include "eggMorph.cxx"
 #include "eggMorphList.cxx"
 #include "eggNamedObject.cxx"
 #include "eggNameUniquifier.cxx"
